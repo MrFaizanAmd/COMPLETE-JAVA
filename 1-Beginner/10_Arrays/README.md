@@ -35,14 +35,19 @@ int[] numbers = new int[5];
 ```java
 // Option 1: Declare and initialize separately
 int[] numbers = new int[3];
+// int number[] = new int[3]; // Can be Written in this.
 numbers[0] = 10;
 numbers[1] = 20;
 numbers[2] = 30;
 
 // Option 2: Initialize directly
 int[] numbers = {10, 20, 30};
-```
+// int number[] = {10, 20, 30}; // Can be Written in this.
 
+// Option 3: Initialize and Declare by User
+int size = 5;
+int arr5[] = new int[size];
+```
 #### Accessing Array Elements:
 ```java
 System.out.println(numbers[0]); // Output: 10
